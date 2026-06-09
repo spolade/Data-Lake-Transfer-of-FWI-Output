@@ -6,16 +6,14 @@ This repository contains the scripts related to the Wildfire FWI use case of the
 LICENSE NOTE: the European Union, represented by the European Commission is the direct and sole owner of the intellectual property rights of these Results. 
 
 
-
+## Step1:
 python stac_hda_fwi.py
 
 
 
-Step2:
+## Step2:
 
 vi EO.FMI.DAT.DESTINE_CLIMATE_WILDFIRE_FWI/metadata/collection_config.json
-
-
 
 
 Check File contin it has to be:  [-180.0, -89.9775, 180.0, 89.9775]
@@ -51,12 +49,12 @@ vi EO.FMI.DAT.DESTINE_CLIMATE_WILDFIRE_FWI/metadata/collection.json
   "stac_extensions": [],
   "description":
 
-Step3:
+## Step3:
 
 python generate_item_metadata.py
 
 
-Step4: Cehck 
+## Step4: Cehck 
 To check all is well with the tree
 
 find EO.FMI.DAT.DESTINE_CLIMATE_WILDFIRE_FWI -maxdepth 4 -type d | sort
