@@ -6,9 +6,9 @@ LICENSE NOTE: The European Union, represented by the European Commission, is the
 
 
 ## Step1:
+```
 python stac_hda_fwi.py
-
-
+```
 
 ## Step2:
 
